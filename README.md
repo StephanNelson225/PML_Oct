@@ -1,14 +1,23 @@
-# PML_Oct
-Practical Machine Learning October Course Project
+#   Prediction Assignment Submission
 
-**Background**
 
-One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, the goal will be to use data from Razor inertial measurement units (IMUs) to measure the quality of performance.  These sensors were mounted in the user’s glove, armband, lumbar belt and dumbbell. The moment-to-moment data collected from these sensors were raw accelerometer, gyroscope and magnetometer readings and calculated features on the Euler angles (roll, pitch and yaw), as well. The six subjects were asked to perform one-arm barbell lifts correctly and incorrectly in 5 different ways. 
+##  Practical Machine Learning - October 2015
 
-The goal of this class project is to predict the manner in which six subjects did the bicep curl exercise. The report describes the data and how the data was pre-processed.  A random forest model was built using the caret package in R to predict the quality of the outcome.  The model was cross-validated using ten-fold cross-validation run five times.  
+### **Background**
 
-Both the in-sample and out-of-sample error were less than 1 percent with the in-sample error slightly better.  Model itself took about three hours running time on an 8 core processor and about nine hours on a 4 core processor. Because of the high level of accuracy of the final model, other options were not pursued. 
+This is the course project for Practical Machine Learning which is part of the Data Science Specialization offered by Johns Hopkins University through Coursera.
 
-The model predicted correctly the twenty test cases.
+### **Repository Contents**
+
+The contents of this repository include this readme along with  markdown and  Rmarkdown files titled "FinalRunOct" and an .html file entitled  Qualitative Activity Recognition Project Final.  The html can be viewed in the repository or for a prettier version, the HTMLPreview function can be run.
+
+If you don't have it installed, prepend this fragment:    
+ http://htmlpreview.github.io/? to the URL of any HTML file.
+ 
+For example to see the project report in HTML clip and paste this url to the browser. 
+
+http://htmlpreview.github.io/?http://github.com/StephanNelson225/PML_Oct/blob/master/QualitativeActivityRecognitionProjectFinal.html
+
+
 
 
